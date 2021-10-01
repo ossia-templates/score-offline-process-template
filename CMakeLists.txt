@@ -19,7 +19,7 @@ add_library(score_addon_my_offline_process
 )
 
 # Link
-target_link_libraries(score_addon_my_offline_process PUBLIC score_lib_process score_plugin_media)
+target_link_libraries(score_addon_my_offline_process PUBLIC score_plugin_engine score_plugin_media)
 
 # Target-specific options
 setup_score_plugin(score_addon_my_offline_process)
