@@ -8,8 +8,7 @@ score_addon_my_offline_process::score_addon_my_offline_process() { }
 
 score_addon_my_offline_process::~score_addon_my_offline_process() { }
 
-std::vector<std::unique_ptr<score::InterfaceBase>>
-score_addon_my_offline_process::factories(
+std::vector<score::InterfaceBase*> score_addon_my_offline_process::factories(
     const score::ApplicationContext& ctx,
     const score::InterfaceKey& key) const
 {
